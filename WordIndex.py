@@ -1,6 +1,6 @@
 #WordIndex.py
 #Name: Michelle Diaz
-#Date: 9/30/25
+#Date: 10/4/25
 #Assignment: WordIndex
 
 def main():
