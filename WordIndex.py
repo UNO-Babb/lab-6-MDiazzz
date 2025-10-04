@@ -16,6 +16,7 @@ def main():
       w = w.lower()
       w = w.replace(",","")
       w = w.replace(".","")
+      w = w.replace("!","")
 
       if w in words:
         if lineNum not in words[w]:
@@ -24,7 +25,7 @@ def main():
         words[w] = [lineNum]
   
     for word in words:
-      print(words, words[word])
+      print(word, words[word])
 
 if __name__ == '__main__':
   main()
